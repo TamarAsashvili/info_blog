@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import logo from '../../images/logo.png'
 
 
 export default function Header() {
@@ -8,7 +9,7 @@ export default function Header() {
       <Navbar expand='lg' bg='light'>
         <Navbar.Brand href='#home'>
           <img
-            src={'https://i.picsum.photos/id/65/200/200.jpg'}
+            src={logo}
             widtth='60'
             height='60'
             className='d-inline-block align-top'
